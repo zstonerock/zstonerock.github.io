@@ -627,7 +627,7 @@ footer a:hover {
 	}
 
 	.carousel-control {
-		margin-top: 35%;
+		margin-top: 60px;
 	}
 
 	#logo {
@@ -691,6 +691,10 @@ footer a:hover {
 		position: absolute;
 		margin-left: 20px;
 		margin-top: -1px;
+	}
+
+	.carousel {
+		padding-bottom: 60px;
 	}
 
 
