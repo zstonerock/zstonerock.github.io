@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+	var event = 'None at this time.';
 	var mq = window.matchMedia( "(max-width: 991px)" );
 
 	if (mq.matches) {
@@ -12,6 +13,6 @@ $(document).ready(function() {
 
 
 	//Populates upcoming events section in footer.
-	$('#events').html('None at this time.');
+	$('#events').html(event);
 
 }); // end doc ready
