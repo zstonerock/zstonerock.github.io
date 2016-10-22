@@ -8,9 +8,12 @@ $(document).ready(function() {
 		$('form').removeClass('forms');
 		$('.form-group').addClass('sm-12');
 		$('nav').addClass('navbar-fixed-top');
-		
-	}
 
+		if (window.location.pathname == '/index.html') {
+			$('footer').removeClass('footer');
+		}
+	
+	}
 
 	//Populates upcoming events section in footer.
 	$('#events').html(event);
