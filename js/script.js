@@ -9,8 +9,8 @@ $(document).ready(function() {
 		$('.form-group').addClass('sm-12');
 		$('nav').addClass('navbar-fixed-top');
 
-		if (window.location.pathname == '/index.html') {
-			$('footer').removeClass('footer');
+		if ($('.index-footer').length) {
+			$('#slideshow').addClass('index-margin');
 		}
 	
 	}
