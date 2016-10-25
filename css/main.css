@@ -609,6 +609,7 @@ footer a:hover {
 	font-size: 14px;
 	color: #c0c0c0;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	padding-top: 5px;
 }
 
@@ -619,6 +620,15 @@ footer a:hover {
 .break {
 	color: #159cd5;
 	font-size: 16px;
+}
+
+.disclaimer-mobile {
+	display: none;
+	visibility: none;
+}
+
+.spacer {
+	padding: 15px 0;
 }
 
 
@@ -646,17 +656,30 @@ footer a:hover {
 		text-align: center;
 	}
 
-	.copyright {
-		font-size: 12px;
+	.footerLinks,
+	.footerLogo,
+	.break,
+	.picture,
+	#logo {
+		visibility: none !important;
+		display: none !important;
 	}
 
-	.footerLinks {
-		visibility: none;
-		display: none;
-	}
-
-	.footerLogo {
+	.disclaimer-mobile {
 		margin-bottom: 20px;
+		display: block;
+		visibility: visible;
+	}
+
+	.copyright span {
+		display: block;
+	}
+
+
+
+	.disclaimer-mobile a {
+		padding: 5px;
+		border: 1px solid #159cd5;
 	}
 
 	.navbar, .navbar-default, .collapse, .navbar-collapse {
@@ -666,16 +689,6 @@ footer a:hover {
 
 	.carousel-control {
 		margin-top: 60px;
-	}
-
-	#logo {
-		visibility: hidden;
-		display: none;
-	}
-
-	.picture {
-		visibility: hidden;
-		display: none;
 	}
 
 	.aboutBorder,
