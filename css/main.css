@@ -63,6 +63,7 @@ body {
 .buttons {
 	float: right;
 	margin-right: 30px;
+	z-index: 9999999999999999999999999999999999999999 !important;
 }
 
 .buttons button {
@@ -304,7 +305,7 @@ body {
 
 /* ============================================ PROGRAMS PAGE ============================================ */
 
-.videos {
+.workouts {
 	width: 95%;
 	height: auto;
 	margin: 0 auto;
@@ -317,7 +318,7 @@ body {
 	font-size: 12px;
 }
 
-.videos h2 {
+.workouts h2 {
 	color: #020202;
 }
 
