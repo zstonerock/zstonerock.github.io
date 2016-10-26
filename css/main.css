@@ -614,12 +614,6 @@ footer a:hover {
 		margin: 30px auto 40px auto;
 	}
 
-	#slideshow {
-		width: 100%;
-		height: auto;
-		margin-top: 10px;
-	}
-
 	.border h2 {
 		font-size: 22px;
 		text-align: center;
@@ -656,10 +650,6 @@ footer a:hover {
 		z-index: 1;
 	}
 
-	.carousel-control {
-		margin-top: 60px;
-	}
-
 	.aboutBorder,
 	.about,
 	.services,
@@ -688,6 +678,10 @@ footer a:hover {
 
 	#senderEmail {
 		margin-left: 0;
+	}
+
+	#sendEmail {
+		margin-right: 0;
 	}
 
 	.form-control {
