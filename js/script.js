@@ -12,6 +12,7 @@ $(document).ready(function() {
 
 	if (mq2.matches) {
 		$('.navbar-brand').html('<img class="img-responsive" alt="brand" src="img/footerlogo.png">');
+		$('footer').removeClass('footer');
 	}
 
 	//Populates upcoming events section in footer.
