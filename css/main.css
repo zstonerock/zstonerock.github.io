@@ -1,26 +1,3 @@
-#finish {
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	z-index: 100;
-}
-
-.finish-box {
-	width: 340px;
-	height: 200px;
-	background-color: #eeeeee;
-	margin: 40px auto 0 auto;
-	padding-top: 10px;
-	color: #000;
-	border-radius: 10px;
-}
-
-.finish-box input {
-	padding-top: 0px;
-}
-
 /* ============================================ BODY & NAVIGATION ============================================ */
 
 body {
@@ -135,25 +112,12 @@ body {
 
 /* ============================================ LANDING PAGE ============================================ */
 
-
-#slideshow {
-	width: 1100px;
-	height: 430px;
-	margin: 11% auto 0 auto;
-}
-
-.carousel-control.right,
-.carousel-control.left {
-    background-image: none;
-}
-
-.carousel .item { 
-    height: 100%;
-    width:100%; 
-}
-
 .landing-border {
 	margin-top: 50px;
+}
+
+.lift {
+	margin: 11% auto;
 }
 
 .border {
@@ -630,8 +594,6 @@ footer a:hover {
 .spacer {
 	padding: 15px 0;
 }
-
-
 
 @media only screen and (max-width: 991px) {
 
