@@ -58,25 +58,28 @@
       </div>
     </div>
 
-    <form class="text-center" method="POST" action="http://formspree.io/YOUREMAILHERE">
-      <div class="form-inline">
-        <div class="form-group">
+    <form class="text-center" method="POST" action="http://formspree.io/stonerockfitness@yahoo.com">
+
+        <div>
+          <input class="input-lg forms" id="senderName" type="name" name="name" placeholder="NAME">
           <label class="sr-only" for="senderName">Name</label>
-          <input class="form-control input-lg forms" id="senderName" type="name" name="name" placeholder="NAME">
         </div>
-        <div class="form-group">
+
+        <div>
+          <input class="input-lg forms" id="senderEmail" type="email" name="email" placeholder="EMAIL">
           <label class="sr-only" for="senderEmail">Email</label>
-          <input class="form-control input-lg forms" id="senderEmail" type="email" name="email" placeholder="EMAIL">
         </div>
-      </div>
-      <textarea class="form-control input-lg message" name="message" rows="10" placeholder="MESSAGE.."></textarea>
+
+      <textarea class="input-lg message" name="message" rows="10" placeholder="MESSAGE.."></textarea>
+
       <input type="submit" id="sendEmail" class="btn btn-default input-lg" value="SEND">
+
       <input type="text" name="_gotcha" style="display:none" />
       <input type="hidden" name="_next" value="thankyou.html" />
-      <input type="hidden" name="_subject" value="Website contact" />
+      <input type="hidden" name="_subject" value="Website contact"/>
+
     </form>
 
-    </div> <!-- end row -->
   </div> <!-- about -->
 </div>
 <!-- end of container div -->
