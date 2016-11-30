@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var event = 'None at this time.';
+	var event = '<a href="pdf/gift-and-gains.pdf" target="_blank">Gift and Gains</a>';
 	var mq = window.matchMedia( "(max-width: 991px)" );
 	var mq2 = window.matchMedia( "(max-width: 767px)" );
 
