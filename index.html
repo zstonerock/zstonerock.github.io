@@ -1,111 +1,60 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Welcome to Stonerock Fitness.">
+  <meta name="description" content="Welcome to Free Code Camp Columbus. We are an enthusiastic group of individuals who enjoy technology, coding, and web development.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Stonerock Fitness</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="img/favicon.png">
+  <title>Free Code Camp Columbus</title>
+  <link rel="icon" href="assets/favicon.png">
+  <!-- <link rel="stylesheet" href="assets/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="assets/sf.min.css">
 </head>
-
-<body>
-  <!-- NAVIGATION -->
-  <nav class="navbar navbar-default navbar-full">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="hamburger navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <div class="col-xs-12">
-            <span class="hamburger-text">MENU</span>
-          </div>
-       </button>
-       <a class="navbar-brand" href="index.html">
-        <img id="logo" class="img-responsive" alt="brand" src="img/brand.png">
-      </a>
-    </div>
-    <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="services.html">SERVICES</a></li>
-      <li><a href="workouts.html">WORKOUTS</a></li>
-      <li><a href="timer.html">TIMER</a></li>
-      <li><a href="testimonial.html">TESTIMONIALS</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-  </div>
-</nav>
-<!-- CONTENT -->
-<div class="container">
-  <!-- SOCIAL MEDIA BUTTONS -->
-  <div class="buttons">
-    <a href="https://www.facebook.com/StonerockFitness/" target="_blank"><button><i class="fa fa-facebook-square"></i></button></a>
-    <a href="https://www.youtube.com/channel/UC64z-B-hDHqcMaSdF3MLRzw" target="_blank"><button><i class="fa fa-youtube"></i></button></a>
-    <a href="https://www.instagram.com/stonerockfit/" target="_blank"><button><i class="fa fa-instagram"></i></button></a>
-  </div>
-  <div class="lift">
-    <img alt="lift" class="img-responsive" src="img/lift.jpg">
-  </div>
-</div>
-<!-- end of container div -->
-<div class="spacer"></div>
-<!-- FOOTER -->
-<footer class="footer">
-  <!-- blue born to train border -->
-  <div class="border">
-    <div class="container">
-      <h2>BORN TO TRAIN STONEROCK HARD!</h2>
+<body class="index">
+<!-- HEADER -->
+<header>
+  <div class="header">
+    <div class="header__wrap">
+      <div class="header__logo-wrap">
+        <a href="#"><div class="header__logo">FreeCodeCamp<i class="fa fa-free-code-camp"></i></div></a>
+      </div>
+      <div class="header__links">
+        <a class="nav__link" href="pages/page.members.html"><div class="header__link">Members</div></a>
+        <a class="nav__link" href="pages/page.slack.html"><div class="header__link">Slack</div></a>
+        <a class="nav__link" href="pages/page.calendar.html"><div class="header__link">Calendar</div></a>
+        <a class="nav__link" href="pages/page.sign-in.html"><div class="header__link">Sign In</div></a>
+        <div type="button" class="header__menu js__header-menu">Menu</div>
+      </div>    
     </div>
   </div>
-  <div class="container">
-    <div class="row text-center">
-
-      <!-- page links -->
-      <div class="col-md-4">
-        <div class="footerLinks">
-          <ul class="list-inline">
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="workouts.html">WORKOUTS</a></li>
-            <li><a href="timer.html">TIMER</a></li>
-            <li><a href="testimonial.html">TESTIMONIALS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="disclaimer.html">DISCLAIMER</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-12 disclaimer-mobile">
-        <a href="disclaimer.html">DISCLAIMER</a>
-      </div>
-      <!-- logo home link -->
-      <div class="col-md-4">
-        <div class="footerLogo">
-          <a href="index.html"><img src="img/footerlogo.png"></a>
-        </div>
-      </div>
-
-      <!-- upcoming events -->
-      <div class="col-md-4">
-        <div class="footerEvents">
-          <h3>UPCOMING EVENTS:</h3>
-          <span id="events"></span>
-        </div>
-      </div>
-
+  <div class="headerdropdown">
+    <div class="headerdropdown__wrap">
+        <a href="pages/page.members.html"><div class="headerdropdown__link">Members</div></a>
+        <a href="pages/page.slack.html"><div class="headerdropdown__link">Slack</div></a>
+        <a href="pages/page.calendar.html"><div class="headerdropdown__link">Calendar</div></a>
+        <a href="pages/page.sign-in.html"><div class="headerdropdown__link">Sign In</div></a>
     </div>
   </div>
-  <div class="copyright text-center">
-    <small class="test"><span>&copy; Copyright 2016, Stonerock Fitness LLC.</span><span class="break"> | </span><span>Website built by <a href="http://justinwoodward.com" target="_blank">Justin Woodward</a></span></small>
-  </div>
-</footer>
+</header>
+<!-- END HEADER -->
+<!-- PAGE CONTENT -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+<section class="hero">
+  
 
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- END PAGE CONTENT -->
+<script src="assets/jquery-2.1.4.min.js"></script>
+<script src="assets/sf.min.js"></script>
 </body>
-
 </html>
