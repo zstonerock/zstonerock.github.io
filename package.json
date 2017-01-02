@@ -1,10 +1,10 @@
 {
-  "name": "FCCC",
+  "name": "sf",
   "version": "1.0.0",
-  "description": "FCCC Website",
-  "author": "FCCC & friends | Overwatched by Justin(FEE) and Kent(BEE)",
+  "description": "Stonerock Fitness Website",
+  "author": "Justin Woodward",
   "license": "ISC",
-  "repository": "https://github.com/FCCColumbus/F3C_Website",
+  "repository": "https://github.com/zstonerock/zstonerock.github.io.git",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "browser-sync": "^2.10.1",
