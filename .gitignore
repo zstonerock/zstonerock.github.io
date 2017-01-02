@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 .gulpfile.js
 node_modules
+=======
+node_modules
+gulpfile.js
+>>>>>>> dev

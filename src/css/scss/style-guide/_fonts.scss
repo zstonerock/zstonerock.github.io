@@ -1,0 +1,22 @@
+/////////////////////////
+//                     //
+//    - IMPORTS -      //
+//                     //
+/////////////////////////
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Cabin');
+
+/////////////////////////
+//                     //
+//      - VARS -       //
+//                     //
+/////////////////////////
+
+$oswald: 'Oswald', sans-serif;
+$cabin: 'Cabin', sans-serif;
+
+
+h1, h2, h3, h4, h5, h6 { font-family: $oswald; }
+
+html,
+body { font-family: $cabin; }
