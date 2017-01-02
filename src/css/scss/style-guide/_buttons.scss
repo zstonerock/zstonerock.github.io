@@ -1,6 +1,10 @@
 .blue-title {
-    width: 100%;
+    width: auto;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
 
     & h3 {
         display: flex;
@@ -11,7 +15,7 @@
         width: 250px;
         height: 60px;
         background: $blue;
-        margin: 0 auto;
+        // margin: 0 auto;
         font-size: 32px;
         letter-spacing: 2px;
         border-bottom-right-radius: 80px;
