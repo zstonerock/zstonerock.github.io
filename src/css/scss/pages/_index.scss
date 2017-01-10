@@ -28,6 +28,7 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+        padding: 60px 0;
     }
 
     &__title {
@@ -38,6 +39,7 @@
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-bottom: 10vh;
+        line-height: 4rem;
     }
 
     &__info-box {
@@ -49,7 +51,7 @@
         position: relative;
         background: url('giftsZach.jpg');
         background-size: cover;
-        background-position: center 80%;
+        background-position: right top;
         border: 2px solid rgba($blue, 0.7);
         border-radius: 10px;
         display: flex;
@@ -89,6 +91,7 @@
         font-size: 32px;
         text-transform: uppercase;
         letter-spacing: 2px;
+        line-height: 2rem;
     }
 
     &__body {
@@ -128,6 +131,7 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         text-align: center;
+        line-height: 2rem;
     }
 
     &__workout {
@@ -140,12 +144,11 @@
 
     &__block {
         width: 50%;
-        height: 50vh;
+        height: 550px;
     }
 
     .blue-title {
-        top: 150vh;
-        margin-top: -30px;
+        margin-top: 520px;
         z-index: 10;
         display: flex;
         justify-content: center;
@@ -183,8 +186,7 @@
             position: absolute;
             display: block;
             width: 50%;
-            height: 50vh;
-            top: 100vh;
+            height: 550px;
             left: 50%;
             z-index: -1;
             background: $black;
@@ -208,8 +210,7 @@
             position: absolute;
             display: block;
             width: 50%;
-            height: 50vh;
-            top: 150vh;
+            height: 550px;
             left: 0;
             z-index: -1;
             background: $black;
@@ -375,6 +376,7 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         text-align: center;
+        line-height: 3rem;
     }
 
     &__info-head {
@@ -481,6 +483,7 @@
         display: flex;
         flex-flow: column wrap;
         width: auto;
+        textarea { margin-top: 10px; }
     }
 
     & input[type="text"],
@@ -728,7 +731,8 @@
 
 @media screen and (max-width: 480px) {
     .index {
-        .hero__wrap { padding: 10% 0; }
+        .blue-title { transform: scale(0.8); }
+        // .hero__wrap { padding: 60px 0; }
         .hero__info-box {
             padding: 40px 0;
             width: 96%;
@@ -736,6 +740,8 @@
         .cta {
             &__column,
             .primary { width: 250px; }
+            .primary .cta__price { transform: scale(1); }
+            .disclaimer { padding: 20px 5%; }
         }
         .contact {
             textarea { box-sizing: border-box; }
